@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: bisque;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+header h1{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+}
