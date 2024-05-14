@@ -12,18 +12,37 @@ body{
     align-items: center;
 }
 
-header{
-    background-color: bisque;
+.menu-page{
     width: 100%;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 60px;
+    background-color: #333;
 }
 
-header h1{
-    text-align: center;
-    width: 100%;
-    font-size: 32px;
-    font-weight: 600;
+.btn-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.btn-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.collapse {
+    display: none; /* Inicialmente oculto */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
 }
